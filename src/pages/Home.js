@@ -1,14 +1,11 @@
 import React from 'react'
 import CocktailList from '../components/CocktailList'
 import SearchForm from '../components/SearchForm'
-
-const Home = () => {
+export default function Home() {
   return (
     <main>
       <SearchForm />
-     <CocktailList />
+      <CocktailList />
     </main>
   )
 }
-
-export default Home
